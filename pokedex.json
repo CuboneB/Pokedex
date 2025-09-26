@@ -17,6 +17,7 @@
     "moves": ["Tackle", "Growl", "Leech Seed", "Vine Whip"],
     "evolutions": ["Ivysaur", "Venusaur"],
     "gender": "♂ 87.5% / ♀ 12.5%"
+    "loot": "Semente"
   },
   {
     "number": 4,
