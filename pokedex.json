@@ -1,47 +1,12 @@
 {
   "Kanto": [
     {
-      "id": 1,
-      "name": "Bulbasaur",
-      "types": ["Grass", "Poison"],
-      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
-      "abilities": ["Overgrow", "Chlorophyll"],
-      "genderRatio": {
-        "male": 87.5,
-        "female": 12.5
-      },
-      "baseXp": 64,
-      "loot": ["Seed"],
-      "location": ["Kanto Routes"],
-      "stats": {
-        "hp": 45,
-        "attack": 49,
-        "defense": 49,
-        "spAtk": 65,
-        "spDef": 65,
-        "speed": 45,
-        "total": 318
-      },
-      "moves": ["Tackle", "Growl", "Vine Whip", "Leech Seed"],
-      "evolution": {
-        "method": "Level 16",
-        "to": "Ivysaur",
-        "nextEvolution": {
-          "method": "Level 32",
-          "to": "Venusaur"
-        }
-      }
-    },
-    {
       "id": 4,
       "name": "Charmander",
       "types": ["Fire"],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
       "abilities": ["Blaze", "Solar Power"],
-      "genderRatio": {
-        "male": 87.5,
-        "female": 12.5
-      },
+      "genderRatio": { "male": 87.5, "female": 12.5 },
       "baseXp": 62,
       "loot": ["Charcoal"],
       "location": ["Kanto Routes"],
@@ -58,45 +23,8 @@
       "evolution": {
         "method": "Level 16",
         "to": "Charmeleon",
-        "nextEvolution": {
-          "method": "Level 36",
-          "to": "Charizard"
-        }
-      }
-    },
-    {
-      "id": 7,
-      "name": "Squirtle",
-      "types": ["Water"],
-      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
-      "abilities": ["Torrent", "Rain Dish"],
-      "genderRatio": {
-        "male": 87.5,
-        "female": 12.5
-      },
-      "baseXp": 63,
-      "loot": ["Shell"],
-      "location": ["Kanto Routes"],
-      "stats": {
-        "hp": 44,
-        "attack": 48,
-        "defense": 65,
-        "spAtk": 50,
-        "spDef": 64,
-        "speed": 43,
-        "total": 314
-      },
-      "moves": ["Tackle", "Tail Whip", "Water Gun", "Withdraw"],
-      "evolution": {
-        "method": "Level 16",
-        "to": "Wartortle",
-        "nextEvolution": {
-          "method": "Level 36",
-          "to": "Blastoise"
-        }
+        "nextEvolution": { "method": "Level 36", "to": "Charizard" }
       }
     }
   ]
 }
-
-
