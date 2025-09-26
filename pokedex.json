@@ -8,7 +8,7 @@
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
     "stats": {"HP": 45, "Attack": 49, "Defense": 49, "Sp. Atk": 65, "Sp. Def": 65, "Speed": 45},
      "moves":[
-      {"name":"Tackle","type":"Grass","category":"Fisico","power":40,"accuracy":100%,"level":3},
+      {"name":"Tackle","type":"Grass","category":"Fisico","power":40,"accuracy":100,"level":3},
       {"name":"","type":"","category":"","power":null,"accuracy":null,"level":3},
       {"name":"","type":"","category":"","power":null,"accuracy":null,"level":3},
       {"name":"","type":"","category":"","power":null,"accuracy":null,"level":8},
