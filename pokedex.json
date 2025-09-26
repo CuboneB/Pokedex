@@ -1,234 +1,39 @@
 {
-  "001": {
-    "nome": "Bulbasaur",
-    "tipo": ["Grama", "Venenoso"],
-    "habilidade": "Overgrow",
-    "descricao": "Bulbasaur carrega uma semente em suas costas que cresce com ele.",
-    "regiao": "kanto",
-    "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
-    "stats": {"hp":45,"atk":49,"def":49,"spatk":65,"spdef":65,"speed":45,"total":300},
-    "moves":["Tackle","Growl","Vine Whip","Razor Leaf"],
-    "evolucao":["Bulbasaur","Ivysaur","Venusaur"]
+  "id": 004,
+  "name": "Charmander",
+  "types": ["Fire"],
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+  "abilities": ["Blaze", "Solar Power"],
+  "genderRatio": {
+    "male": 87.5,
+    "female": 12.5
   },
-  "004": {
-    "nome": "Charmander",
-    "tipo": ["Fogo"],
-    "habilidade": "Blaze",
-    "descricao": "A chama em sua cauda mostra sua vitalidade.",
-    "regiao": "kanto",
-    "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
-    "stats": {"hp":39,"atk":52,"def":43,"spatk":60,"spdef":50,"speed":65},
-    "moves":["Scratch","Growl","Ember","Smokescreen"],
-    "evolucao":["Charmander","Charmeleon","Charizard"]
+  "baseXp": 62,
+  "loot": ["Charcoal"],
+  "location": ["Kanto Routes"],
+  "stats": {
+    "hp": 39,
+    "attack": 52,
+    "defense": 43,
+    "spAtk": 60,
+    "spDef": 50,
+    "speed": 65,
+    "total": 309
   },
-  "007": {
-    "nome": "Squirtle",
-    "tipo": ["Água"],
-    "habilidade": "Torrent",
-    "descricao": "Squirtle se esconde em sua concha para se proteger.",
-    "regiao": "kanto",
-    "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
-    "stats": {"hp":44,"atk":48,"def":65,"spatk":50,"spdef":64,"speed":43},
-    "moves":["Tackle","Tail Whip","Water Gun","Withdraw"],
-    "evolucao":["Squirtle","Wartortle","Blastoise"]
-  },
-  "152": {
-    "nome": "Chikorita",
-    "tipo": ["Grama"],
-    "habilidade": "Overgrow",
-    "descricao": "Chikorita acena sua folha para liberar uma fragrância calmante.",
-    "regiao": "johto",
-    "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/152.png",
-    "stats":{"hp":45,"atk":49,"def":65,"spatk":49,"spdef":65,"speed":45},
-    "moves":["Tackle","Growl","Razor Leaf","Reflect"],
-    "evolucao":["Chikorita","Bayleef","Meganium"]
-  },
-  "155": {
-    "nome": "Cyndaquil",
-    "tipo": ["Fogo"],
-    "habilidade": "Blaze",
-    "descricao": "Cyndaquil se enrola para se proteger e a chama em suas costas queima quando se assusta.",
-    "regiao": "johto",
-    "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/155.png",
-    "stats":{"hp":39,"atk":52,"def":43,"spatk":60,"spdef":50,"speed":65},
-    "moves":["Tackle","Leer","Ember","Smokescreen"],
-    "evolucao":["Cyndaquil","Quilava","Typhlosion"]
-  },
-  "158": {
-    "nome": "Totodile",
-    "tipo": ["Água"],
-    "habilidade": "Torrent",
-    "descricao": "Totodile adora morder, mesmo coisas que não deveria.",
-    "regiao": "johto",
-    "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/158.png",
-    "stats":{"hp":50,"atk":65,"def":64,"spatk":44,"spdef":48,"speed":43},
-    "moves":["Scratch","Leer","Water Gun","Bite"],
-    "evolucao":["Totodile","Croconaw","Feraligatr"]
-  },
-  "252": {
-    "nome": "Treecko",
-    "tipo": ["Grama"],
-    "habilidade": "Overgrow",
-    "descricao": "Treecko é calmo e confiante, mesmo diante de inimigos maiores.",
-    "regiao": "hoenn",
-    "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/252.png",
-    "stats":{"hp":40,"atk":45,"def":35,"spatk":65,"spdef":55,"speed":70},
-    "moves":["Pound","Leer","Absorb","Quick Attack"],
-    "evolucao":["Treecko","Grovyle","Sceptile"]
-  },
-  "255": {
-    "nome": "Torchic",
-    "tipo": ["Fogo"],
-    "habilidade": "Blaze",
-    "descricao": "Torchic é ativo e curioso, movendo suas asas pequenas rapidamente.",
-    "regiao": "hoenn",
-    "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/255.png",
-    "stats":{"hp":45,"atk":60,"def":40,"spatk":70,"spdef":50,"speed":45},
-    "moves":["Scratch","Growl","Ember","Peck"],
-    "evolucao":["Torchic","Combusken","Blaziken"]
-  },
-  "258": {
-    "nome": "Mudkip",
-    "tipo": ["Água"],
-    "habilidade": "Torrent",
-    "descricao": "Mudkip é forte mesmo em pequenos rios e pântanos, adora água.",
-    "regiao": "hoenn",
-    "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/258.png",
-    "stats":{"hp":50,"atk":70,"def":50,"spatk":50,"spdef":50,"speed":40},
-    "moves":["Tackle","Growl","Water Gun","Mud-Slap"],
-    "evolucao":["Mudkip","Marshtomp","Swampert"]
-  },
-  "390": {
-    "nome": "Turtwig",
-    "tipo": ["Grama"],
-    "habilidade": "Overgrow",
-    "descricao": "Turtwig é calmo e persistente, adora rolar nas folhas.",
-    "regiao": "sinnoh",
-    "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/390.png",
-    "stats":{"hp":55,"atk":68,"def":64,"spatk":45,"spdef":55,"speed":31},
-    "moves":["Tackle","Withdraw","Razor Leaf","Leer"],
-    "evolucao":["Turtwig","Grotle","Torterra"]
-  },
-  "393": {
-    "nome": "Chimchar",
-    "tipo": ["Fogo"],
-    "habilidade": "Blaze",
-    "descricao": "Chimchar é brincalhão e não gosta de água, mas adora trepar árvores.",
-    "regiao": "sinnoh",
-    "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/393.png",
-    "stats":{"hp":44,"atk":58,"def":44,"spatk":58,"spdef":44,"speed":61},
-    "moves":["Scratch","Leer","Ember","Smokescreen"],
-    "evolucao":["Chimchar","Monferno","Infernape"]
-  },
-  "396": {
-    "nome": "Piplup",
-    "tipo": ["Água"],
-    "habilidade": "Torrent",
-    "descricao": "Piplup é orgulhoso e resistente, adora nadar e mergulhar.",
-    "regiao": "sinnoh",
-    "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/396.png",
-    "stats":{"hp":53,"atk":51,"def":53,"spatk":61,"spdef":56,"speed":40},
-    "moves":["Tackle","Growl","Bubble","Peck"],
-    "evolucao":["Piplup","Prinplup","Empoleon"]
-  },
-  "650": {
-    "nome": "Chespin",
-    "tipo": ["Grama"],
-    "habilidade": "Overgrow",
-    "descricao": "Chespin é alegre e corajoso, adorando explorar florestas.",
-    "regiao": "kalos",
-    "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/650.png",
-    "stats":{"hp":56,"atk":61,"def":65,"spatk":48,"spdef":45,"speed":38},
-    "moves":["Tackle","Growl","Vine Whip","Rollout"],
-    "evolucao":["Chespin","Quilladin","Chesnaught"]
-  },
-  "653": {
-    "nome": "Fennekin",
-    "tipo": ["Fogo"],
-    "habilidade": "Blaze",
-    "descricao": "Fennekin é silencioso e observador, mas quando excita sua cauda queima mais forte.",
-    "regiao": "kalos",
-    "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/653.png",
-    "stats":{"hp":40,"atk":45,"def":40,"spatk":62,"spdef":60,"speed":60},
-    "moves":["Scratch","Growl","Ember","Tail Whip"],
-    "evolucao":["Fennekin","Braixen","Delphox"]
-  },
-  "656": {
-    "nome": "Froakie",
-    "tipo": ["Água"],
-    "habilidade": "Torrent",
-    "descricao": "Froakie é rápido e esperto, adora saltar sobre a água.",
-    "regiao": "kalos",
-    "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/656.png",
-    "stats":{"hp":41,"atk":56,"def":40,"spatk":62,"spdef":44,"speed":71},
-    "moves":["Pound","Growl","Bubble","Quick Attack"],
-    "evolucao":["Froakie","Frogadier","Greninja"]
-  },
-  "722": {
-    "nome": "Rowlet",
-    "tipo": ["Grama", "Voador"],
-    "habilidade": "Overgrow",
-    "descricao": "Rowlet voa silencioso à noite e usa sua folha para atacar.",
-    "regiao": "alola",
-    "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/722.png",
-    "stats":{"hp":68,"atk":55,"def":55,"spatk":50,"spdef":50,"speed":42},
-    "moves":["Tackle","Leafage","Growl","Peck"],
-    "evolucao":["Rowlet","Dartrix","Decidueye"]
-  },
-  "725": {
-    "nome": "Litten",
-    "tipo": ["Fogo"],
-    "habilidade": "Blaze",
-    "descricao": "Litten é calmo e independente, guarda suas emoções e ataque com precisão.",
-    "regiao": "alola",
-    "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/725.png",
-    "stats":{"hp":45,"atk":65,"def":40,"spatk":60,"spdef":40,"speed":70},
-    "moves":["Scratch","Growl","Ember","Bite"],
-    "evolucao":["Litten","Torracat","Incineroar"]
-  },
-  "728": {
-    "nome": "Popplio",
-    "tipo": ["Água"],
-    "habilidade": "Torrent",
-    "descricao": "Popplio adora brincar com bolhas de água e é muito flexível.",
-    "regiao": "alola",
-    "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/728.png",
-    "stats":{"hp":50,"atk":54,"def":54,"spatk":66,"spdef":56,"speed":40},
-    "moves":["Pound","Growl","Water Gun","Baby-Doll Eyes"],
-    "evolucao":["Popplio","Brionne","Primarina"]
-  },
-  "810": {
-    "nome": "Grookey",
-    "tipo": ["Grama"],
-    "habilidade": "Overgrow",
-    "descricao": "Grookey é enérgico e usa seu bastão para batalhar e brincar.",
-    "regiao": "galar",
-    "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/810.png",
-    "stats":{"hp":50,"atk":65,"def":50,"spatk":40,"spdef":40,"speed":65},
-    "moves":["Scratch","Growl","Branch Poke","Leer"],
-    "evolucao":["Grookey","Thwackey","Rillaboom"]
-  },
-  "813": {
-    "nome": "Scorbunny",
-    "tipo": ["Fogo"],
-    "habilidade": "Blaze",
-    "descricao": "Scorbunny é rápido e cheio de energia, sempre em movimento.",
-    "regiao": "galar",
-    "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/813.png",
-    "stats":{"hp":50,"atk":71,"def":40,"spatk":40,"spdef":40,"speed":69},
-    "moves":["Scratch","Growl","Ember","Double Kick"],
-    "evolucao":["Scorbunny","Raboot","Cinderace"]
-  },
-  "816": {
-    "nome": "Sobble",
-    "tipo": ["Água"],
-    "habilidade": "Torrent",
-    "descricao": "Sobble é tímido e se camufla na água para se proteger.",
-    "regiao": "galar",
-    "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/816.png",
-    "stats":{"hp":50,"atk":40,"def":40,"spatk":70,"spdef":40,"speed":70},
-    "moves":["Pound","Growl","Water Gun","Bind"],
-    "evolucao":["Sobble","Drizzile","Inteleon"]
+  "moves": [
+    "Scratch",
+    "Growl",
+    "Ember",
+    "Smokescreen",
+    "Dragon Rage",
+    "Scary Face"
+  ],
+  "evolution": {
+    "method": "Level 16",
+    "to": "Charmeleon",
+    "nextEvolution": {
+      "method": "Level 36",
+      "to": "Charizard"
+    }
   }
 }
-
