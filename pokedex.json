@@ -6,7 +6,7 @@
     "descricao": "Bulbasaur carrega uma semente em suas costas que cresce com ele.",
     "regiao": "kanto",
     "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
-    "stats": {"hp":45,"atk":49,"def":49,"spatk":65,"spdef":65,"speed":45},
+    "stats": {"hp":45,"atk":49,"def":49,"spatk":65,"spdef":65,"speed":45,"total":300},
     "moves":["Tackle","Growl","Vine Whip","Razor Leaf"],
     "evolucao":["Bulbasaur","Ivysaur","Venusaur"]
   },
