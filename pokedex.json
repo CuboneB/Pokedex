@@ -1,39 +1,42 @@
-{
-  "id": 4,
-  "name": "Charmander",
-  "types": ["Fire"],
-  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
-  "abilities": ["Blaze", "Solar Power"],
-  "genderRatio": {
-    "male": 87.5,
-    "female": 12.5
-  },
-  "baseXp": 62,
-  "loot": ["Charcoal"],
-  "location": ["Kanto Routes"],
-  "stats": {
-    "hp": 39,
-    "attack": 52,
-    "defense": 43,
-    "spAtk": 60,
-    "spDef": 50,
-    "speed": 65,
-    "total": 309
-  },
-  "moves": [
-    "Scratch",
-    "Growl",
-    "Ember",
-    "Smokescreen",
-    "Dragon Rage",
-    "Scary Face"
-  ],
-  "evolution": {
-    "method": "Level 16",
-    "to": "Charmeleon",
-    "nextEvolution": {
-      "method": "Level 36",
-      "to": "Charizard"
+[
+  {
+    "id": 4,
+    "name": "Charmander",
+    "types": ["Fire"],
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+    "abilities": ["Blaze", "Solar Power"],
+    "genderRatio": {
+      "male": 87.5,
+      "female": 12.5
+    },
+    "baseXp": 62,
+    "loot": ["Charcoal"],
+    "location": ["Kanto Routes"],
+    "stats": {
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "spAtk": 60,
+      "spDef": 50,
+      "speed": 65,
+      "total": 309
+    },
+    "moves": [
+      "Scratch",
+      "Growl",
+      "Ember",
+      "Smokescreen",
+      "Dragon Rage",
+      "Scary Face"
+    ],
+    "evolution": {
+      "method": "Level 16",
+      "to": "Charmeleon",
+      "nextEvolution": {
+        "method": "Level 36",
+        "to": "Charizard"
+      }
     }
   }
-}
+]
+
