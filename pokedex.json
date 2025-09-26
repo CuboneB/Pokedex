@@ -3,18 +3,28 @@
     "nome": "Bulbasaur",
     "tipo": ["Grama", "Venenoso"],
     "habilidade": "Overgrow",
-    "descricao": "Bulbasaur carrega uma semente em suas costas que cresce com ele."
+    "descricao": "Bulbasaur carrega uma semente em suas costas que cresce com ele.",
+    "regiao": "kanto"
   },
   "004": {
     "nome": "Charmander",
     "tipo": ["Fogo"],
     "habilidade": "Blaze",
-    "descricao": "A chama em sua cauda mostra sua vitalidade. Se ela apagar, o Charmander pode morrer."
+    "descricao": "A chama em sua cauda mostra sua vitalidade.",
+    "regiao": "kanto"
   },
-  "007": {
-    "nome": "Squirtle",
-    "tipo": ["Água"],
-    "habilidade": "Torrent",
-    "descricao": "Squirtle esconde-se dentro da concha para se proteger e pode disparar jatos de água com força."
+  "152": {
+    "nome": "Chikorita",
+    "tipo": ["Grama"],
+    "habilidade": "Overgrow",
+    "descricao": "Chikorita acena sua folha para liberar uma fragrância calmante.",
+    "regiao": "johto"
+  },
+  "252": {
+    "nome": "Treecko",
+    "tipo": ["Grama"],
+    "habilidade": "Overgrow",
+    "descricao": "Treecko é calmo e confiante, mesmo diante de inimigos maiores.",
+    "regiao": "hoenn"
   }
 }
