@@ -92,6 +92,183 @@
     "moves": [{"name":"Tackle","type":"Normal","level":1},{"name":"Tail Whip","type":"Normal","level":1},{"name":"Water Gun","type":"Water","level":1},{"name":"Withdraw","type":"Water","level":8},{"name":"Rapid Spin","type":"Normal","level":11},{"name":"Protect","type":"Normal","level":14},{"name":"Aqua Jet","type":"Water","level":17},{"name":"Bite","type":"Dark","level":20},{"name":"Water Pulse","type":"Water","level":23},{"name":"Rain Dance","type":"Water","level":26},{"name":"Shell Smash","type":"Normal","level":29},{"name":"Crunch","type":"Dark","level":32},{"name":"Aqua Ring","type":"Water","level":35},{"name":"Headbutt","type":"Normal","level":38},{"name":"Flip Turn","type":"Water","level":41},{"name":"Aqua Tail","type":"Water","level":44},{"name":"Iron Defense","type":"Steel","level":47},{"name":"Water Pledge","type":"Water","level":50},{"name":"Take Down","type":"Normal","level":52},{"name":"Hydro Pump","type":"Water","level":55},{"name":"Wave Crash","type":"Water","level":58},{"name":"Hydro Cannon","type":"Water","level":61},{"name":"Giga Impact","type":"Normal","level":64}],
     "gender": "88% Macho | 12% Fêmea",
     "loot": "Nenhum"},
+  [
+  {
+    "number": "010",
+    "name": "Caterpie",
+    "types": ["Bug"],
+    "ability": "Shield Dust",
+    "region": "Kanto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
+    "stats": {"HP": 45,"Attack": 30,"Defense": 35,"Sp. Atk": 20,"Sp. Def": 20,"Speed": 45},
+    "moves": [
+      { "level": 1, "name": "Tackle", "type": "Normal", "category": "Physical", "power": 40, "accuracy": 100 },
+      { "level": 1, "name": "String Shot", "type": "Bug", "category": "Status", "power": null, "accuracy": 95 }
+    ],
+    "evolutions": ["Metapod", "Butterfree"],
+    "gender": "50% M / 50% F",
+    "loot": "String, Bug Dust"
+  },
+  {
+    "number": "011",
+    "name": "Metapod",
+    "types": ["Bug"],
+    "ability": "Shed Skin",
+    "region": "Kanto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
+    "stats": {"HP": 50,"Attack": 20,"Defense": 55,"Sp. Atk": 25,"Sp. Def": 25,"Speed": 30},
+    "moves": [
+      { "level": 1, "name": "Harden", "type": "Normal", "category": "Status", "power": null, "accuracy": null }
+    ],
+    "evolutions": ["Butterfree"],
+    "gender": "50% M / 50% F",
+    "loot": "Hardened Shell"
+  },
+  {
+    "number": "012",
+    "name": "Butterfree",
+    "types": ["Bug", "Flying"],
+    "ability": "Compound Eyes",
+    "region": "Kanto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
+    "stats": {"HP": 60,"Attack": 45,"Defense": 50,"Sp. Atk": 90,"Sp. Def": 80,"Speed": 70},
+    "moves": [
+      { "level": 10, "name": "Confusion", "type": "Psychic", "category": "Special", "power": 50, "accuracy": 100 },
+      { "level": 12, "name": "Gust", "type": "Flying", "category": "Special", "power": 40, "accuracy": 100 },
+      { "level": 14, "name": "Poison Powder", "type": "Poison", "category": "Status", "power": null, "accuracy": 75 }
+    ],
+    "evolutions": [],
+    "gender": "50% M / 50% F",
+    "loot": "Wing Dust, Compound Dust"
+  },
+  {
+    "number": "013",
+    "name": "Weedle",
+    "types": ["Bug", "Poison"],
+    "ability": "Shield Dust",
+    "region": "Kanto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
+    "stats": {"HP": 40,"Attack": 35,"Defense": 30,"Sp. Atk": 20,"Sp. Def": 20,"Speed": 50},
+    "moves": [
+      { "level": 1, "name": "Poison Sting", "type": "Poison", "category": "Physical", "power": 15, "accuracy": 100 },
+      { "level": 1, "name": "String Shot", "type": "Bug", "category": "Status", "power": null, "accuracy": 95 }
+    ],
+    "evolutions": ["Kakuna", "Beedrill"],
+    "gender": "50% M / 50% F",
+    "loot": "Stinger, Bug Dust"
+  },
+  {
+    "number": "014",
+    "name": "Kakuna",
+    "types": ["Bug", "Poison"],
+    "ability": "Shed Skin",
+    "region": "Kanto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
+    "stats": {"HP": 45,"Attack": 25,"Defense": 50,"Sp. Atk": 25,"Sp. Def": 25,"Speed": 35},
+    "moves": [
+      { "level": 1, "name": "Harden", "type": "Normal", "category": "Status", "power": null, "accuracy": null }
+    ],
+    "evolutions": ["Beedrill"],
+    "gender": "50% M / 50% F",
+    "loot": "Hardened Shell"
+  },
+  {
+    "number": "015",
+    "name": "Beedrill",
+    "types": ["Bug", "Poison"],
+    "ability": "Swarm",
+    "region": "Kanto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
+    "stats": {"HP": 65,"Attack": 90,"Defense": 40,"Sp. Atk": 45,"Sp. Def": 80,"Speed": 75},
+    "moves": [
+      { "level": 10, "name": "Fury Attack", "type": "Normal", "category": "Physical", "power": 15, "accuracy": 85 },
+      { "level": 12, "name": "Focus Energy", "type": "Normal", "category": "Status", "power": null, "accuracy": null },
+      { "level": 14, "name": "Twineedle", "type": "Bug", "category": "Physical", "power": 25, "accuracy": 100 }
+    ],
+    "evolutions": [],
+    "gender": "50% M / 50% F",
+    "loot": "Stinger, Poison Sac"
+  },
+  {
+    "number": "016",
+    "name": "Pidgey",
+    "types": ["Normal", "Flying"],
+    "ability": "Keen Eye",
+    "region": "Kanto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+    "stats": {"HP": 40,"Attack": 45,"Defense": 40,"Sp. Atk": 35,"Sp. Def": 35,"Speed": 56},
+    "moves": [
+      { "level": 1, "name": "Tackle", "type": "Normal", "category": "Physical", "power": 40, "accuracy": 100 },
+      { "level": 5, "name": "Sand Attack", "type": "Ground", "category": "Status", "power": null, "accuracy": 100 }
+    ],
+    "evolutions": ["Pidgeotto", "Pidgeot"],
+    "gender": "50% M / 50% F",
+    "loot": "Feather"
+  },
+  {
+    "number": "017",
+    "name": "Pidgeotto",
+    "types": ["Normal", "Flying"],
+    "ability": "Keen Eye",
+    "region": "Kanto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+    "stats": {"HP": 63,"Attack": 60,"Defense": 55,"Sp. Atk": 50,"Sp. Def": 50,"Speed": 71},
+    "moves": [
+      { "level": 10, "name": "Gust", "type": "Flying", "category": "Special", "power": 40, "accuracy": 100 },
+      { "level": 15, "name": "Quick Attack", "type": "Normal", "category": "Physical", "power": 40, "accuracy": 100 }
+    ],
+    "evolutions": ["Pidgeot"],
+    "gender": "50% M / 50% F",
+    "loot": "Large Feather"
+  },
+  {
+    "number": "018",
+    "name": "Pidgeot",
+    "types": ["Normal", "Flying"],
+    "ability": "Keen Eye",
+    "region": "Kanto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+    "stats": {"HP": 83,"Attack": 80,"Defense": 75,"Sp. Atk": 70,"Sp. Def": 70,"Speed": 101},
+    "moves": [
+      { "level": 20, "name": "Wing Attack", "type": "Flying", "category": "Physical", "power": 60, "accuracy": 100 },
+      { "level": 25, "name": "Agility", "type": "Psychic", "category": "Status", "power": null, "accuracy": null }
+    ],
+    "evolutions": [],
+    "gender": "50% M / 50% F",
+    "loot": "Majestic Feather"
+  },
+  {
+    "number": "019",
+    "name": "Rattata",
+    "types": ["Normal"],
+    "ability": "Run Away",
+    "region": "Kanto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+    "stats": {"HP": 30,"Attack": 56,"Defense": 35,"Sp. Atk": 25,"Sp. Def": 35,"Speed": 72},
+    "moves": [
+      { "level": 1, "name": "Tackle", "type": "Normal", "category": "Physical", "power": 40, "accuracy": 100 },
+      { "level": 4, "name": "Tail Whip", "type": "Normal", "category": "Status", "power": null, "accuracy": 100 }
+    ],
+    "evolutions": ["Raticate"],
+    "gender": "50% M / 50% F",
+    "loot": "Rat Fang"
+  },
+  {"number": "020",
+    "name": "Raticate",
+    "types": ["Normal"],
+    "ability": "Guts",
+    "region": "Kanto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
+    "stats": {"HP": 55,"Attack": 81,"Defense": 60,"Sp. Atk": 50,"Sp. Def": 70,"Speed": 97},
+    "moves": [
+      { "level": 20, "name": "Hyper Fang", "type": "Normal", "category": "Physical", "power": 80, "accuracy": 90 },
+      { "level": 25, "name": "Focus Energy", "type": "Normal", "category": "Status", "power": null, "accuracy": null }
+    ],
+    "evolutions": [],
+    "gender": "50% M / 50% F",
+    "loot": "Sharp Fang"
+  },
+
   {
     "number": "152",
     "name": "Chikorita",
