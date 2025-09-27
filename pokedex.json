@@ -299,7 +299,6 @@
       {"name":"Giga Impact","type":"Normal","level":64}],
     "gender": "88% Macho | 12% Fêmea",
     "loot": "Nenhum"},
-  [
   {
     "number": "010",
     "name": "Caterpie",
@@ -460,22 +459,6 @@
     "gender": "50% M / 50% F",
     "loot": "Rat Fang"
   },
-  {"number": "020",
-    "name": "Raticate",
-    "types": ["Normal"],
-    "ability": "Guts",
-    "region": "Kanto",
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
-    "stats": {"HP": 55,"Attack": 81,"Defense": 60,"Sp. Atk": 50,"Sp. Def": 70,"Speed": 97},
-    "moves": [
-      { "level": 20, "name": "Hyper Fang", "type": "Normal", "category": "Physical", "power": 80, "accuracy": 90 },
-      { "level": 25, "name": "Focus Energy", "type": "Normal", "category": "Status", "power": null, "accuracy": null }
-    ],
-    "evolutions": [],
-    "gender": "50% M / 50% F",
-    "loot": "Sharp Fang"
-  },
-
   {
     "number": "152",
     "name": "Chikorita",
