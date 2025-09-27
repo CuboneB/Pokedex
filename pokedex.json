@@ -459,6 +459,182 @@
     "gender": "50% M / 50% F",
     "loot": "Rat Fang"
   },
+    {
+    "number": "020",
+    "name": "Raticate",
+    "types": ["Normal"],
+    "ability": "Guts",
+    "region": "Kanto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
+    "stats": {"HP": 55,"Attack": 81,"Defense": 60,"Sp. Atk": 50,"Sp. Def": 70,"Speed": 97},
+    "moves": [
+      { "level": 20, "name": "Hyper Fang", "type": "Normal", "category": "Physical", "power": 80, "accuracy": 90 },
+      { "level": 25, "name": "Focus Energy", "type": "Normal", "category": "Status", "power": null, "accuracy": null }
+    ],
+    "evolutions": [],
+    "gender": "50% M / 50% F",
+    "loot": "Sharp Fang"
+  },
+  {
+    "number": "021",
+    "name": "Spearow",
+    "types": ["Normal", "Flying"],
+    "ability": "Keen Eye",
+    "region": "Kanto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
+    "stats": {"HP": 40,"Attack": 60,"Defense": 30,"Sp. Atk": 31,"Sp. Def": 31,"Speed": 70},
+    "moves": [
+      { "level": 1, "name": "Peck", "type": "Flying", "category": "Physical", "power": 35, "accuracy": 100 },
+      { "level": 1, "name": "Growl", "type": "Normal", "category": "Status", "power": null, "accuracy": 100 }
+    ],
+    "evolutions": ["Fearow"],
+    "gender": "50% M / 50% F",
+    "loot": "Sharp Beak"
+  },
+  {
+    "number": "022",
+    "name": "Fearow",
+    "types": ["Normal", "Flying"],
+    "ability": "Keen Eye",
+    "region": "Kanto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
+    "stats": {"HP": 65,"Attack": 90,"Defense": 65,"Sp. Atk": 61,"Sp. Def": 61,"Speed": 100},
+    "moves": [
+      { "level": 20, "name": "Drill Peck", "type": "Flying", "category": "Physical", "power": 80, "accuracy": 100 },
+      { "level": 25, "name": "Agility", "type": "Psychic", "category": "Status", "power": null, "accuracy": null }
+    ],
+    "evolutions": [],
+    "gender": "50% M / 50% F",
+    "loot": "Large Beak"
+  },
+  {
+    "number": "023",
+    "name": "Ekans",
+    "types": ["Poison"],
+    "ability": "Intimidate",
+    "region": "Kanto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
+    "stats": {"HP": 35,"Attack": 60,"Defense": 44,"Sp. Atk": 40,"Sp. Def": 54,"Speed": 55},
+    "moves": [
+      { "level": 1, "name": "Wrap", "type": "Normal", "category": "Physical", "power": 15, "accuracy": 90 },
+      { "level": 1, "name": "Leer", "type": "Normal", "category": "Status", "power": null, "accuracy": 100 }
+    ],
+    "evolutions": ["Arbok"],
+    "gender": "50% M / 50% F",
+    "loot": "Snake Fang"
+  },
+  {
+    "number": "024",
+    "name": "Arbok",
+    "types": ["Poison"],
+    "ability": "Intimidate",
+    "region": "Kanto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
+    "stats": {"HP": 60,"Attack": 95,"Defense": 69,"Sp. Atk": 65,"Sp. Def": 79,"Speed": 80},
+    "moves": [
+      { "level": 20, "name": "Poison Fang", "type": "Poison", "category": "Physical", "power": 50, "accuracy": 100 },
+      { "level": 25, "name": "Glare", "type": "Normal", "category": "Status", "power": null, "accuracy": 100 }
+    ],
+    "evolutions": [],
+    "gender": "50% M / 50% F",
+    "loot": "Venom Sac"
+  },
+  {
+    "number": "025",
+    "name": "Pikachu",
+    "types": ["Electric"],
+    "ability": "Static",
+    "region": "Kanto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+    "stats": {"HP": 35,"Attack": 55,"Defense": 40,"Sp. Atk": 50,"Sp. Def": 50,"Speed": 90},
+    "moves": [
+      { "level": 1, "name": "Thunder Shock", "type": "Electric", "category": "Special", "power": 40, "accuracy": 100 },
+      { "level": 5, "name": "Growl", "type": "Normal", "category": "Status", "power": null, "accuracy": 100 }
+    ],
+    "evolutions": ["Raichu"],
+    "gender": "50% M / 50% F",
+    "loot": "Electric Pouch"
+  },
+  {
+    "number": "026",
+    "name": "Raichu",
+    "types": ["Electric"],
+    "ability": "Static",
+    "region": "Kanto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
+    "stats": {"HP": 60,"Attack": 90,"Defense": 55,"Sp. Atk": 90,"Sp. Def": 80,"Speed": 110},
+    "moves": [
+      { "level": 20, "name": "Thunderbolt", "type": "Electric", "category": "Special", "power": 90, "accuracy": 100 },
+      { "level": 25, "name": "Quick Attack", "type": "Normal", "category": "Physical", "power": 40, "accuracy": 100 }
+    ],
+    "evolutions": [],
+    "gender": "50% M / 50% F",
+    "loot": "Electric Tail"
+  },
+  {
+    "number": "027",
+    "name": "Sandshrew",
+    "types": ["Ground"],
+    "ability": "Sand Veil",
+    "region": "Kanto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
+    "stats": {"HP": 50,"Attack": 75,"Defense": 85,"Sp. Atk": 20,"Sp. Def": 30,"Speed": 40},
+    "moves": [
+      { "level": 1, "name": "Scratch", "type": "Normal", "category": "Physical", "power": 40, "accuracy": 100 },
+      { "level": 3, "name": "Defense Curl", "type": "Normal", "category": "Status", "power": null, "accuracy": null }
+    ],
+    "evolutions": ["Sandslash"],
+    "gender": "50% M / 50% F",
+    "loot": "Claw, Sand Fragment"
+  },
+  {
+    "number": "028",
+    "name": "Sandslash",
+    "types": ["Ground"],
+    "ability": "Sand Veil",
+    "region": "Kanto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
+    "stats": {"HP": 75,"Attack": 100,"Defense": 110,"Sp. Atk": 45,"Sp. Def": 55,"Speed": 65},
+    "moves": [
+      { "level": 20, "name": "Slash", "type": "Normal", "category": "Physical", "power": 70, "accuracy": 100 },
+      { "level": 25, "name": "Sand Attack", "type": "Ground", "category": "Status", "power": null, "accuracy": 100 }
+    ],
+    "evolutions": [],
+    "gender": "50% M / 50% F",
+    "loot": "Sharp Claw"
+  },
+  {
+    "number": "029",
+    "name": "Nidoran♀",
+    "types": ["Poison"],
+    "ability": "Poison Point",
+    "region": "Kanto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
+    "stats": {"HP": 55,"Attack": 47,"Defense": 52,"Sp. Atk": 40,"Sp. Def": 40,"Speed": 41},
+    "moves": [
+      { "level": 1, "name": "Growl", "type": "Normal", "category": "Status", "power": null, "accuracy": 100 },
+      { "level": 1, "name": "Poison Sting", "type": "Poison", "category": "Physical", "power": 15, "accuracy": 100 }
+    ],
+    "evolutions": ["Nidorina", "Nidoqueen"],
+    "gender": "100% F",
+    "loot": "Poison Barb"
+  },
+  {
+    "number": "030",
+    "name": "Nidorina",
+    "types": ["Poison"],
+    "ability": "Poison Point",
+    "region": "Kanto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
+    "stats": {"HP": 70,"Attack": 62,"Defense": 67,"Sp. Atk": 55,"Sp. Def": 55,"Speed": 56},
+    "moves": [
+      { "level": 15, "name": "Bite", "type": "Dark", "category": "Physical", "power": 60, "accuracy": 100 },
+      { "level": 20, "name": "Double Kick", "type": "Fighting", "category": "Physical", "power": 30, "accuracy": 100 }
+    ],
+    "evolutions": ["Nidoqueen"],
+    "gender": "100% F",
+    "loot": "Venom Barb"
+  },
   {
     "number": "152",
     "name": "Chikorita",
