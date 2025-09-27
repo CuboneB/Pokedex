@@ -202,7 +202,7 @@
     "types": ["Water"],
     "ability": "Torrent | Rain Dish (HA)",
     "region": "Kanto",
-    "image": "https://www.serebii.net/pokemon/art/007.pngg",
+    "image": "https://www.serebii.net/pokemon/art/007.png",
     "stats": {"HP": 44, "Attack": 48, "Defense": 65, "SpAtk": 50, "SpDef": 64, "Speed": 43},
     "moves": [{"name":"Tackle","type":"Normal","level":1},
       {"name":"Tail Whip","type":"Normal","level":1},
